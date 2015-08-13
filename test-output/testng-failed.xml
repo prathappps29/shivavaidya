@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demo1]" parallel="tests">
+  <parameter name="browser" value="chrome"/>
+  <test name="chrome(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.shivaprathap.Pgm">
+        <methods>
+          <include name="setup" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.shivaprathap.Pgm -->
+    </classes>
+  </test> <!-- chrome(failed) -->
+</suite> <!-- Failed suite [demo1] -->

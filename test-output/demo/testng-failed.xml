@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [demo]">
+  <test name="youtube on firefox(failed)">
+    <classes>
+      <class name="com.shivaprathap.Pgm">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.shivaprathap.Pgm -->
+    </classes>
+  </test> <!-- youtube on firefox(failed) -->
+  <test name="youtube on chrome(failed)">
+    <classes>
+      <class name="com.shivaprathap.Pgm">
+        <methods>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.shivaprathap.Pgm -->
+    </classes>
+  </test> <!-- youtube on chrome(failed) -->
+</suite> <!-- Failed suite [demo] -->
